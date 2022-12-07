@@ -201,8 +201,43 @@ void screensizetosymb() {
             1080, 64
         },
     };
+    int resolutionSymbX[10][2] =
+    {
+        {
+            800, 100
+        },
+        {
+            1024, 128
+        },
+        {
+            1152, 144
+        },
+        {
+            1280, 160   
+        },
+        {
+            1360, 170   
+        },
+        {
+            1400, 175
+        },
+        {
+            1440, 180
+        },
+        {
+            1600, 200
+        },
+        {
+            1680, 210
+        },
+        {
+            1920, 240
+        },
+    };
+
+
     
-    cout << resolutionSymbY[2][0] <<" and "<< resolutionSymbY[2][1] << endl;
+    cout << resolutionSymbX[2][0] << " " << resolutionSymbY[2][0] << " and " << resolutionSymbX[2][1] << " " << resolutionSymbY[2][1] << endl;
 
     int SymbolicScreenResX=0;
     int SymbolicScreenResY=0;
