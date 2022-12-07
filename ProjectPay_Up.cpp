@@ -167,14 +167,42 @@ BOOL WINAPI ConsoleHandler(DWORD CEvent)
 void screensizetosymb() {
     int ScreenResX = GetSystemMetrics(SM_CXSCREEN);
     int ScreenResY = GetSystemMetrics(SM_CYSCREEN);
-    /*
-    int pixelsminY[1][5] = 
+    
+    int resolutionSymbY[10][2] = 
     {
         {
-            600,             
+            600, 34           
+        },
+        {
+            720, 41
+        },
+        {
+            768, 44
+        },
+        {
+            800, 46
+        },
+        {
+            864, 50
+        },
+        {
+            900, 52
+        },
+        {
+            960, 56
+        },
+        {
+            1024, 60
+        },
+        {
+            1050, 62
+        },
+        {
+            1080, 64
         },
     };
-    */
+    
+    cout << resolutionSymbY[2][0] <<" and "<< resolutionSymbY[2][1] << endl;
 
     int SymbolicScreenResX=0;
     int SymbolicScreenResY=0;
